@@ -1,15 +1,6 @@
 {
   "name": "lfanime",
   "version": "0.0.1",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --check . && eslint .",
-    "format": "prettier --write ."
-  },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "3.0.1",
     "@sveltejs/kit": "2.0.6",
@@ -31,8 +22,14 @@
     "typescript": "5.3.3",
     "vite": "5.0.10"
   },
-  "type": "module",
-  "dependencies": {
-    "node-vibrant": "3.2.1-alpha.1"
-  }
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "type": "module"
 }
