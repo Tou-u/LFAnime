@@ -3,10 +3,10 @@
   import { baseUrl } from '$lib/utils'
 
   export let data: PageData
-  const { anime, palette } = data
+  const { anime } = data
 </script>
 
-<main class="min-h-screen" style="background: {palette};">
+<main class="min-h-screen bg-black">
   <header class="h-60 blur-md">
     <img
       alt="header"
